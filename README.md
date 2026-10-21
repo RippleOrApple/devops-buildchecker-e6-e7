@@ -27,7 +27,7 @@ python3 scripts/lab_cloud.py gate --out work/e7-01
 
 工作流自动构建镜像、执行独立判定测试和完整门禁，并保留 artifact。`ci/A-main-protection.json` 为课程要求的保护配置；`ci/rejection-demo/A/` 提供故意错误与修正后的测试预期，仅用于证明失败 PR 被拦截、修正后恢复。
 
-最终实际运行链接和结果将记录在 `docs/实验报告.md`。结果未产生前，不把预期值标记为已通过。
+实际运行链接、失败拦截及已合并的 PR 记录见 [实验报告](docs/实验报告.md)。E6 前后校验、E7 八项门禁及恢复后的 17 项服务测试均已通过；云主机内存自检仍为 FAIL。
 
 ## 来源与辅助说明
 
